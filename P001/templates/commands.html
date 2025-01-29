@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Windows Commands Reference</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .search-container {
+            margin-bottom: 20px;
+        }
+        .commands-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        .commands-table th, .commands-table td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        .commands-table th {
+            background-color: #f5f5f5;
+        }
+        .commands-table tr:hover {
+            background-color: #f9f9f9;
+        }
+        .button {
+            padding: 8px 16px;
+            background-color: #008CBA;
+            color: white;
+            border: none;
+            cursor: pointer;
+            border-radius: 4px;
+            margin-bottom: 20px;
+        }
+        .button:hover {
+            background-color: #007399;
+        }
+    </style>
+</head>
+<body>
+    <h1>Windows Commands Reference</h1>
+    
+    <button class="button" onclick="downloadCommands()">Download Commands</button>
+
+    <div class="search-container">
+        <input type="text" id="searchInput" placeholder="Search commands..." 
+               onkeyup="searchCommands()" style="padding: 8px; width: 300px;">
+    </div>
+
+    <table class="commands-table">
+        <thead>
+            <tr>
+                <th>Command</th>
+                <th>Description</th>
+                <th>Category</th>
+            </tr>
+        </thead>
+        <tbody id="commandsTableBody">
+            {% for cmd in commands %}
+            <tr>
+                <td><code>{{ cmd.command }}</code></td>
+                <td>{{ cmd.description }}</td>
+                <td>{{ cmd.category }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+
+    <script>
+        function searchCommands() {
+            const input = document.getElementById('searchInput').value;
+            fetch(`/api/commands/search?q=${input}`)
+                .then(response => response.json())
+                .then(commands => {
+                    updateTableBody(commands);
+                });
+        }
+
+        function downloadCommands() {
+            window.location.href = '/api/download';
+        }
+
+        function updateTableBody(commands) {
+            const tbody = document.getElementById('commandsTableBody');
+            tbody.innerHTML = commands.map(cmd => `
+                <tr>
+                    <td><code>${cmd.command}</code></td>
+                    <td>${cmd.description}</td>
+                    <td>${cmd.category}</td>
+                </tr>
+            `).join('');
+        }
+    </script>
+</body>
+</html>

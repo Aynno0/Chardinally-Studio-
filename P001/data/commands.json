@@ -1,0 +1,1457 @@
+[
+  {
+    "command": "&",
+    "description": "Start a new process in the background",
+    "category": "General"
+  },
+  {
+    "command": "alias",
+    "description": "Create an alias \u2022",
+    "category": "General"
+  },
+  {
+    "command": "apropos",
+    "description": "Search Help manual pages (man -k)",
+    "category": "General"
+  },
+  {
+    "command": "apt",
+    "description": "Search for and install software packages (Debian/Ubuntu)",
+    "category": "General"
+  },
+  {
+    "command": "apt-get",
+    "description": "Search for and install software packages (Debian/Ubuntu)",
+    "category": "General"
+  },
+  {
+    "command": "aptitude",
+    "description": "Search for and install software packages (Debian/Ubuntu)",
+    "category": "General"
+  },
+  {
+    "command": "aspell",
+    "description": "Spell Checker",
+    "category": "General"
+  },
+  {
+    "command": "at",
+    "description": "Schedule a command to run once at a particular time",
+    "category": "General"
+  },
+  {
+    "command": "awk",
+    "description": "Find and Replace text, database sort/validate/index",
+    "category": "General"
+  },
+  {
+    "command": "basename",
+    "description": "Strip directory and suffix from filenames",
+    "category": "General"
+  },
+  {
+    "command": "base32",
+    "description": "Base32 encode/decode data and print to standard output",
+    "category": "General"
+  },
+  {
+    "command": "base64",
+    "description": "Base64 encode/decode data and print to standard output",
+    "category": "General"
+  },
+  {
+    "command": "bash",
+    "description": "GNU Bourne-Again SHell",
+    "category": "General"
+  },
+  {
+    "command": "bc",
+    "description": "Arbitrary precision calculator language",
+    "category": "General"
+  },
+  {
+    "command": "bg",
+    "description": "Send to background",
+    "category": "General"
+  },
+  {
+    "command": "bind",
+    "description": "Set or display readline key and function bindings \u2022",
+    "category": "General"
+  },
+  {
+    "command": "break",
+    "description": "Exit from a loop \u2022",
+    "category": "General"
+  },
+  {
+    "command": "builtin",
+    "description": "Run a shell builtin",
+    "category": "General"
+  },
+  {
+    "command": "bzip2",
+    "description": "Compress or decompress named file(s)",
+    "category": "General"
+  },
+  {
+    "command": "cal",
+    "description": "Display a calendar",
+    "category": "General"
+  },
+  {
+    "command": "caller",
+    "description": "Return the context of any active subroutine call \u2022",
+    "category": "General"
+  },
+  {
+    "command": "case",
+    "description": "Conditionally perform a command",
+    "category": "General"
+  },
+  {
+    "command": "cat",
+    "description": "Concatenate and print (display) the content of files",
+    "category": "General"
+  },
+  {
+    "command": "cd",
+    "description": "Change Directory",
+    "category": "General"
+  },
+  {
+    "command": "cfdisk",
+    "description": "Partition table manipulator for Linux",
+    "category": "General"
+  },
+  {
+    "command": "chattr",
+    "description": "Change file attributes on a Linux file system",
+    "category": "General"
+  },
+  {
+    "command": "chgrp",
+    "description": "Change group ownership",
+    "category": "General"
+  },
+  {
+    "command": "chmod",
+    "description": "Change access permissions",
+    "category": "General"
+  },
+  {
+    "command": "chown",
+    "description": "Change file owner and group",
+    "category": "General"
+  },
+  {
+    "command": "chpasswd",
+    "description": "Update passwords in batch mode",
+    "category": "General"
+  },
+  {
+    "command": "chroot",
+    "description": "Run a command with a different root directory",
+    "category": "General"
+  },
+  {
+    "command": "chkconfig",
+    "description": "System services (runlevel)",
+    "category": "General"
+  },
+  {
+    "command": "cksum",
+    "description": "Print CRC checksum and byte counts",
+    "category": "General"
+  },
+  {
+    "command": "clear",
+    "description": "Clear the terminal screen/console (ncurses)",
+    "category": "General"
+  },
+  {
+    "command": "clear_console",
+    "description": "Clear the terminal screen/console (bash)",
+    "category": "General"
+  },
+  {
+    "command": "cmp",
+    "description": "Compare two files",
+    "category": "General"
+  },
+  {
+    "command": "comm",
+    "description": "Compare two sorted files line by line",
+    "category": "General"
+  },
+  {
+    "command": "command",
+    "description": "Run a command - ignoring shell functions \u2022",
+    "category": "General"
+  },
+  {
+    "command": "continue",
+    "description": "Resume the next iteration of a loop \u2022",
+    "category": "General"
+  },
+  {
+    "command": "cp",
+    "description": "Copy one or more files to another location",
+    "category": "General"
+  },
+  {
+    "command": "cpio",
+    "description": "Copy files to and from archives",
+    "category": "General"
+  },
+  {
+    "command": "cron",
+    "description": "Daemon to execute scheduled commands",
+    "category": "General"
+  },
+  {
+    "command": "crontab",
+    "description": "Schedule a command to run at a later time",
+    "category": "General"
+  },
+  {
+    "command": "csplit",
+    "description": "Split a file into context-determined pieces",
+    "category": "General"
+  },
+  {
+    "command": "curl",
+    "description": "Transfer data from or to a server",
+    "category": "General"
+  },
+  {
+    "command": "cut",
+    "description": "Divide a file into several parts",
+    "category": "General"
+  },
+  {
+    "command": "date",
+    "description": "Display or change the date & time",
+    "category": "General"
+  },
+  {
+    "command": "dc",
+    "description": "Desk Calculator",
+    "category": "General"
+  },
+  {
+    "command": "dd",
+    "description": "Data Duplicator - convert and copy a file, write disk headers, boot records",
+    "category": "General"
+  },
+  {
+    "command": "ddrescue",
+    "description": "Data recovery tool",
+    "category": "General"
+  },
+  {
+    "command": "declare",
+    "description": "Declare variables and give them attributes \u2022",
+    "category": "General"
+  },
+  {
+    "command": "df",
+    "description": "Display free disk space",
+    "category": "General"
+  },
+  {
+    "command": "diff",
+    "description": "Display the differences between two files",
+    "category": "General"
+  },
+  {
+    "command": "diff3",
+    "description": "Show differences among three files",
+    "category": "General"
+  },
+  {
+    "command": "dig",
+    "description": "DNS lookup",
+    "category": "General"
+  },
+  {
+    "command": "dir",
+    "description": "Briefly list directory contents",
+    "category": "General"
+  },
+  {
+    "command": "dircolors",
+    "description": "Colour setup for 'ls'",
+    "category": "General"
+  },
+  {
+    "command": "dirname",
+    "description": "Convert a full pathname to just a path",
+    "category": "General"
+  },
+  {
+    "command": "dirs",
+    "description": "Display list of remembered directories",
+    "category": "General"
+  },
+  {
+    "command": "dos2unix",
+    "description": "Windows/MAC to UNIX text file format converter",
+    "category": "General"
+  },
+  {
+    "command": "dmesg",
+    "description": "Print kernel & driver messages",
+    "category": "General"
+  },
+  {
+    "command": "dpkg",
+    "description": "Package manager (Debian/Ubuntu)",
+    "category": "General"
+  },
+  {
+    "command": "du",
+    "description": "Estimate file space usage",
+    "category": "General"
+  },
+  {
+    "command": "echo",
+    "description": "Display message on screen \u2022",
+    "category": "General"
+  },
+  {
+    "command": "egrep",
+    "description": "Search file(s) for lines that match an extended expression",
+    "category": "General"
+  },
+  {
+    "command": "eject",
+    "description": "Eject removable media",
+    "category": "General"
+  },
+  {
+    "command": "enable",
+    "description": "Enable and disable builtin shell commands \u2022",
+    "category": "General"
+  },
+  {
+    "command": "env",
+    "description": "Environment variables",
+    "category": "General"
+  },
+  {
+    "command": "ethtool",
+    "description": "Ethernet card settings",
+    "category": "General"
+  },
+  {
+    "command": "eval",
+    "description": "Evaluate several commands/arguments",
+    "category": "General"
+  },
+  {
+    "command": "exec",
+    "description": "Execute a command",
+    "category": "General"
+  },
+  {
+    "command": "exit",
+    "description": "Exit the shell",
+    "category": "General"
+  },
+  {
+    "command": "expand",
+    "description": "Convert tabs to spaces",
+    "category": "General"
+  },
+  {
+    "command": "export",
+    "description": "Set an environment variable",
+    "category": "General"
+  },
+  {
+    "command": "expr",
+    "description": "Evaluate expressions",
+    "category": "General"
+  },
+  {
+    "command": "false",
+    "description": "Do nothing, unsuccessfully",
+    "category": "General"
+  },
+  {
+    "command": "fdformat",
+    "description": "Low-level format a floppy disk",
+    "category": "General"
+  },
+  {
+    "command": "fdisk",
+    "description": "Partition table manipulator for Linux",
+    "category": "General"
+  },
+  {
+    "command": "fg",
+    "description": "Send job to foreground",
+    "category": "General"
+  },
+  {
+    "command": "fgrep",
+    "description": "Search file(s) for lines that match a fixed string",
+    "category": "General"
+  },
+  {
+    "command": "file",
+    "description": "Determine file type",
+    "category": "General"
+  },
+  {
+    "command": "find",
+    "description": "Search for files that meet a desired criteria",
+    "category": "General"
+  },
+  {
+    "command": "fmt",
+    "description": "Reformat paragraph text",
+    "category": "General"
+  },
+  {
+    "command": "fold",
+    "description": "Wrap text to fit a specified width",
+    "category": "General"
+  },
+  {
+    "command": "for",
+    "description": "Expand words, and execute commands",
+    "category": "General"
+  },
+  {
+    "command": "format",
+    "description": "Format disks or tapes",
+    "category": "General"
+  },
+  {
+    "command": "free",
+    "description": "Display memory usage",
+    "category": "General"
+  },
+  {
+    "command": "fsck",
+    "description": "File system consistency check and repair",
+    "category": "General"
+  },
+  {
+    "command": "ftp",
+    "description": "File Transfer Protocol",
+    "category": "General"
+  },
+  {
+    "command": "function",
+    "description": "Define Function Macros",
+    "category": "General"
+  },
+  {
+    "command": "fuser",
+    "description": "Identify/kill the process that is accessing a file",
+    "category": "General"
+  },
+  {
+    "command": "gawk",
+    "description": "Find and Replace text within file(s)",
+    "category": "General"
+  },
+  {
+    "command": "getopts",
+    "description": "Parse positional parameters",
+    "category": "General"
+  },
+  {
+    "command": "getfacl",
+    "description": "Get file access control lists",
+    "category": "General"
+  },
+  {
+    "command": "grep",
+    "description": "Search file(s) for lines that match a given pattern",
+    "category": "General"
+  },
+  {
+    "command": "groupadd",
+    "description": "Add a user security group",
+    "category": "General"
+  },
+  {
+    "command": "groupdel",
+    "description": "Delete a group",
+    "category": "General"
+  },
+  {
+    "command": "groupmod",
+    "description": "Modify a group",
+    "category": "General"
+  },
+  {
+    "command": "groups",
+    "description": "Print group names a user is in",
+    "category": "General"
+  },
+  {
+    "command": "gzip",
+    "description": "Compress or decompress named file(s)",
+    "category": "General"
+  },
+  {
+    "command": "hash",
+    "description": "Remember the full pathname of a name argument",
+    "category": "General"
+  },
+  {
+    "command": "head",
+    "description": "Output the first part of file(s)",
+    "category": "General"
+  },
+  {
+    "command": "help",
+    "description": "Display help for a built-in command \u2022",
+    "category": "General"
+  },
+  {
+    "command": "history",
+    "description": "Command History",
+    "category": "General"
+  },
+  {
+    "command": "hostname",
+    "description": "Print or set system name",
+    "category": "General"
+  },
+  {
+    "command": "htop",
+    "description": "Interactive process viewer",
+    "category": "General"
+  },
+  {
+    "command": "iconv",
+    "description": "Convert the character set of a file",
+    "category": "General"
+  },
+  {
+    "command": "id",
+    "description": "Print user and group id\u2019s",
+    "category": "General"
+  },
+  {
+    "command": "if",
+    "description": "Conditionally perform a command",
+    "category": "General"
+  },
+  {
+    "command": "ifconfig",
+    "description": "Configure a network interface",
+    "category": "General"
+  },
+  {
+    "command": "ifdown",
+    "description": "Stop a network interface",
+    "category": "General"
+  },
+  {
+    "command": "ifup",
+    "description": "Start a network interface up",
+    "category": "General"
+  },
+  {
+    "command": "import",
+    "description": "Capture an X server screen and save the image to file",
+    "category": "General"
+  },
+  {
+    "command": "install",
+    "description": "Copy files and set attributes",
+    "category": "General"
+  },
+  {
+    "command": "iostat",
+    "description": "Report CPU and i/o statistics",
+    "category": "General"
+  },
+  {
+    "command": "ip",
+    "description": "Routing, devices and tunnels",
+    "category": "General"
+  },
+  {
+    "command": "jobs",
+    "description": "List active jobs \u2022",
+    "category": "General"
+  },
+  {
+    "command": "join",
+    "description": "Join lines on a common field",
+    "category": "General"
+  },
+  {
+    "command": "kill",
+    "description": "Kill a process by specifying its PID",
+    "category": "General"
+  },
+  {
+    "command": "killall",
+    "description": "Kill processes by name",
+    "category": "General"
+  },
+  {
+    "command": "klist",
+    "description": "List cached Kerberos tickets",
+    "category": "General"
+  },
+  {
+    "command": "less",
+    "description": "Display output one screen at a time",
+    "category": "General"
+  },
+  {
+    "command": "let",
+    "description": "Perform arithmetic on shell variables \u2022",
+    "category": "General"
+  },
+  {
+    "command": "link",
+    "description": "Create a link to a file",
+    "category": "General"
+  },
+  {
+    "command": "ln",
+    "description": "Create a symbolic link to a file",
+    "category": "General"
+  },
+  {
+    "command": "local",
+    "description": "Create a function variable \u2022",
+    "category": "General"
+  },
+  {
+    "command": "locate",
+    "description": "Find files",
+    "category": "General"
+  },
+  {
+    "command": "logname",
+    "description": "Print current login name",
+    "category": "General"
+  },
+  {
+    "command": "logout",
+    "description": "Exit a login shell \u2022",
+    "category": "General"
+  },
+  {
+    "command": "look",
+    "description": "Display lines beginning with a given string",
+    "category": "General"
+  },
+  {
+    "command": "lpc",
+    "description": "Line printer control program",
+    "category": "General"
+  },
+  {
+    "command": "lpr",
+    "description": "Print files",
+    "category": "General"
+  },
+  {
+    "command": "lprint",
+    "description": "Print a file",
+    "category": "General"
+  },
+  {
+    "command": "lprintd",
+    "description": "Delete a print job",
+    "category": "General"
+  },
+  {
+    "command": "lprintq",
+    "description": "List the print queue",
+    "category": "General"
+  },
+  {
+    "command": "lprm",
+    "description": "Remove jobs from the print queue",
+    "category": "General"
+  },
+  {
+    "command": "lsattr",
+    "description": "List file attributes on a Linux second extended file system",
+    "category": "General"
+  },
+  {
+    "command": "lsblk",
+    "description": "List block devices",
+    "category": "General"
+  },
+  {
+    "command": "ls",
+    "description": "List information about file(s)",
+    "category": "General"
+  },
+  {
+    "command": "lsof",
+    "description": "List open files",
+    "category": "General"
+  },
+  {
+    "command": "lspci",
+    "description": "List all PCI devices",
+    "category": "General"
+  },
+  {
+    "command": "make",
+    "description": "Recompile a group of programs",
+    "category": "General"
+  },
+  {
+    "command": "man",
+    "description": "Help manual",
+    "category": "General"
+  },
+  {
+    "command": "mapfile",
+    "description": "Read lines from standard input into an indexed array variable \u2022",
+    "category": "General"
+  },
+  {
+    "command": "md5sum",
+    "description": "Compute and check MD5 message digest",
+    "category": "General"
+  },
+  {
+    "command": "mkdir",
+    "description": "Create new folder(s)",
+    "category": "General"
+  },
+  {
+    "command": "mkfifo",
+    "description": "Make FIFOs (named pipes)",
+    "category": "General"
+  },
+  {
+    "command": "mkfile",
+    "description": "Make a file",
+    "category": "General"
+  },
+  {
+    "command": "mkisofs",
+    "description": "Create a hybrid ISO9660/JOLIET/HFS filesystem",
+    "category": "General"
+  },
+  {
+    "command": "mknod",
+    "description": "Make block or character special files",
+    "category": "General"
+  },
+  {
+    "command": "mktemp",
+    "description": "Make a temporary file",
+    "category": "General"
+  },
+  {
+    "command": "more",
+    "description": "Display output one screen at a time",
+    "category": "General"
+  },
+  {
+    "command": "most",
+    "description": "Browse or page through a text file",
+    "category": "General"
+  },
+  {
+    "command": "mount",
+    "description": "Mount a file system",
+    "category": "General"
+  },
+  {
+    "command": "mtools",
+    "description": "Manipulate MS-DOS files",
+    "category": "General"
+  },
+  {
+    "command": "mtr",
+    "description": "Network diagnostics (traceroute/ping)",
+    "category": "General"
+  },
+  {
+    "command": "mv",
+    "description": "Move or rename files or directories",
+    "category": "General"
+  },
+  {
+    "command": "mmv",
+    "description": "Mass Move and rename (files)",
+    "category": "General"
+  },
+  {
+    "command": "nc",
+    "description": "Netcat, read and write data across networks",
+    "category": "General"
+  },
+  {
+    "command": "netstat",
+    "description": "Networking connections/stats",
+    "category": "General"
+  },
+  {
+    "command": "nft",
+    "description": "nftables for packet filtering and classification",
+    "category": "General"
+  },
+  {
+    "command": "nice",
+    "description": "Set the priority of a command or job",
+    "category": "General"
+  },
+  {
+    "command": "nl",
+    "description": "Number lines and write files",
+    "category": "General"
+  },
+  {
+    "command": "nohup",
+    "description": "Run a command immune to hangups",
+    "category": "General"
+  },
+  {
+    "command": "notify-send",
+    "description": "Send desktop notifications",
+    "category": "General"
+  },
+  {
+    "command": "nslookup",
+    "description": "Query Internet name servers interactively",
+    "category": "General"
+  },
+  {
+    "command": "open",
+    "description": "Open a file in its default application",
+    "category": "General"
+  },
+  {
+    "command": "op",
+    "description": "Operator access",
+    "category": "General"
+  },
+  {
+    "command": "passwd",
+    "description": "Modify a user password",
+    "category": "General"
+  },
+  {
+    "command": "paste",
+    "description": "Merge lines of files",
+    "category": "General"
+  },
+  {
+    "command": "pathchk",
+    "description": "Check file name portability",
+    "category": "General"
+  },
+  {
+    "command": "Perf",
+    "description": "Performance analysis tools for Linux",
+    "category": "General"
+  },
+  {
+    "command": "ping",
+    "description": "Test a network connection",
+    "category": "General"
+  },
+  {
+    "command": "pgrep",
+    "description": "List processes by name",
+    "category": "General"
+  },
+  {
+    "command": "pkill",
+    "description": "Kill processes by name",
+    "category": "General"
+  },
+  {
+    "command": "popd",
+    "description": "Restore the previous value of the current directory",
+    "category": "General"
+  },
+  {
+    "command": "pr",
+    "description": "Prepare files for printing",
+    "category": "General"
+  },
+  {
+    "command": "printcap",
+    "description": "Printer capability database",
+    "category": "General"
+  },
+  {
+    "command": "printenv",
+    "description": "Print environment variables",
+    "category": "General"
+  },
+  {
+    "command": "printf",
+    "description": "Format and print data \u2022",
+    "category": "General"
+  },
+  {
+    "command": "ps",
+    "description": "Process status",
+    "category": "General"
+  },
+  {
+    "command": "pushd",
+    "description": "Save and then change the current directory",
+    "category": "General"
+  },
+  {
+    "command": "pv",
+    "description": "Monitor the progress of data through a pipe",
+    "category": "General"
+  },
+  {
+    "command": "pwd",
+    "description": "Print Working Directory",
+    "category": "General"
+  },
+  {
+    "command": "quota",
+    "description": "Display disk usage and limits",
+    "category": "General"
+  },
+  {
+    "command": "quotacheck",
+    "description": "Scan a file system for disk usage",
+    "category": "General"
+  },
+  {
+    "command": "ram",
+    "description": "ram disk device",
+    "category": "General"
+  },
+  {
+    "command": "rar",
+    "description": "Archive files with compression",
+    "category": "General"
+  },
+  {
+    "command": "rcp",
+    "description": "Copy files between two machines",
+    "category": "General"
+  },
+  {
+    "command": "read",
+    "description": "Read a line from standard input \u2022",
+    "category": "General"
+  },
+  {
+    "command": "readarray",
+    "description": "Read from stdin into an array variable \u2022",
+    "category": "General"
+  },
+  {
+    "command": "readonly",
+    "description": "Mark variables/functions as readonly",
+    "category": "General"
+  },
+  {
+    "command": "reboot",
+    "description": "Reboot the system",
+    "category": "General"
+  },
+  {
+    "command": "rename",
+    "description": "Rename files",
+    "category": "General"
+  },
+  {
+    "command": "renice",
+    "description": "Alter priority of running processes",
+    "category": "General"
+  },
+  {
+    "command": "remsync",
+    "description": "Synchronize remote files via email",
+    "category": "General"
+  },
+  {
+    "command": "return",
+    "description": "Exit a shell function",
+    "category": "General"
+  },
+  {
+    "command": "rev",
+    "description": "Reverse lines of a file",
+    "category": "General"
+  },
+  {
+    "command": "rm",
+    "description": "Remove files",
+    "category": "General"
+  },
+  {
+    "command": "rmdir",
+    "description": "Remove folder(s)",
+    "category": "General"
+  },
+  {
+    "command": "rsync",
+    "description": "Remote file copy (Synchronize file trees)",
+    "category": "General"
+  },
+  {
+    "command": "screen",
+    "description": "Multiplex terminal, run remote shells via ssh",
+    "category": "General"
+  },
+  {
+    "command": "scp",
+    "description": "Secure copy (remote file copy)",
+    "category": "General"
+  },
+  {
+    "command": "sdiff",
+    "description": "Merge two files interactively",
+    "category": "General"
+  },
+  {
+    "command": "sed",
+    "description": "Stream Editor",
+    "category": "General"
+  },
+  {
+    "command": "select",
+    "description": "Accept user choices via keyboard input",
+    "category": "General"
+  },
+  {
+    "command": "seq",
+    "description": "Print numeric sequences",
+    "category": "General"
+  },
+  {
+    "command": "set",
+    "description": "Manipulate shell variables and functions",
+    "category": "General"
+  },
+  {
+    "command": "setfacl",
+    "description": "Set file access control lists",
+    "category": "General"
+  },
+  {
+    "command": "sftp",
+    "description": "Secure File Transfer Program",
+    "category": "General"
+  },
+  {
+    "command": "sha256sum",
+    "description": "Compute and check SHA256 (256-bit) checksums",
+    "category": "General"
+  },
+  {
+    "command": "shift",
+    "description": "Shift positional parameters",
+    "category": "General"
+  },
+  {
+    "command": "shopt",
+    "description": "Shell Options",
+    "category": "General"
+  },
+  {
+    "command": "shuf",
+    "description": "Generate random permutations",
+    "category": "General"
+  },
+  {
+    "command": "shutdown",
+    "description": "Shutdown or restart Linux",
+    "category": "General"
+  },
+  {
+    "command": "sleep",
+    "description": "Delay for a specified time",
+    "category": "General"
+  },
+  {
+    "command": "slocate",
+    "description": "Find files",
+    "category": "General"
+  },
+  {
+    "command": "sort",
+    "description": "Sort text files",
+    "category": "General"
+  },
+  {
+    "command": "source",
+    "description": "Run commands from a file '.'  \u2022",
+    "category": "General"
+  },
+  {
+    "command": "split",
+    "description": "Split a file into fixed-size pieces",
+    "category": "General"
+  },
+  {
+    "command": "ss",
+    "description": "Socket Statistics",
+    "category": "General"
+  },
+  {
+    "command": "ssh",
+    "description": "Secure Shell client (remote login program)",
+    "category": "General"
+  },
+  {
+    "command": "stat",
+    "description": "Display file or file system status",
+    "category": "General"
+  },
+  {
+    "command": "strace",
+    "description": "Trace system calls and signals",
+    "category": "General"
+  },
+  {
+    "command": "su",
+    "description": "Substitute user identity",
+    "category": "General"
+  },
+  {
+    "command": "sudo",
+    "description": "Execute a command as another user",
+    "category": "General"
+  },
+  {
+    "command": "sum",
+    "description": "Print a checksum for a file",
+    "category": "General"
+  },
+  {
+    "command": "suspend",
+    "description": "Suspend execution of this shell \u2022",
+    "category": "General"
+  },
+  {
+    "command": "sync",
+    "description": "Synchronize data on disk with memory",
+    "category": "General"
+  },
+  {
+    "command": "tabs",
+    "description": "Set tabs on a terminal",
+    "category": "General"
+  },
+  {
+    "command": "tail",
+    "description": "Output the last part of a file",
+    "category": "General"
+  },
+  {
+    "command": "tar",
+    "description": "Store, list or extract files in an archive",
+    "category": "General"
+  },
+  {
+    "command": "tee",
+    "description": "Redirect output to multiple files",
+    "category": "General"
+  },
+  {
+    "command": "test",
+    "description": "Evaluate a conditional expression",
+    "category": "General"
+  },
+  {
+    "command": "time",
+    "description": "Measure Program running time",
+    "category": "General"
+  },
+  {
+    "command": "timeout",
+    "description": "Run a command with a time limit",
+    "category": "General"
+  },
+  {
+    "command": "times",
+    "description": "User and system times",
+    "category": "General"
+  },
+  {
+    "command": "tmux",
+    "description": "Terminal multiplexer",
+    "category": "General"
+  },
+  {
+    "command": "touch",
+    "description": "Change file timestamps",
+    "category": "General"
+  },
+  {
+    "command": "top",
+    "description": "List processes running on the system",
+    "category": "General"
+  },
+  {
+    "command": "tput",
+    "description": "Set terminal-dependent capabilities, color, position",
+    "category": "General"
+  },
+  {
+    "command": "traceroute",
+    "description": "Trace Route to Host",
+    "category": "General"
+  },
+  {
+    "command": "trap",
+    "description": "Execute a command when the shell receives a signal \u2022",
+    "category": "General"
+  },
+  {
+    "command": "tr",
+    "description": "Translate, squeeze, and/or delete characters",
+    "category": "General"
+  },
+  {
+    "command": "true",
+    "description": "Do nothing, successfully",
+    "category": "General"
+  },
+  {
+    "command": "tsort",
+    "description": "Topological sort",
+    "category": "General"
+  },
+  {
+    "command": "tty",
+    "description": "Print filename of terminal on stdin",
+    "category": "General"
+  },
+  {
+    "command": "type",
+    "description": "Describe a command \u2022",
+    "category": "General"
+  },
+  {
+    "command": "ulimit",
+    "description": "Limit user resources \u2022",
+    "category": "General"
+  },
+  {
+    "command": "umask",
+    "description": "Users file creation mask",
+    "category": "General"
+  },
+  {
+    "command": "umount",
+    "description": "Unmount a device",
+    "category": "General"
+  },
+  {
+    "command": "unalias",
+    "description": "Remove an alias \u2022",
+    "category": "General"
+  },
+  {
+    "command": "uname",
+    "description": "Print system information",
+    "category": "General"
+  },
+  {
+    "command": "unexpand",
+    "description": "Convert spaces to tabs",
+    "category": "General"
+  },
+  {
+    "command": "uniq",
+    "description": "Uniquify files",
+    "category": "General"
+  },
+  {
+    "command": "units",
+    "description": "Convert units from one scale to another",
+    "category": "General"
+  },
+  {
+    "command": "unix2dos",
+    "description": "UNIX to Windows or MAC text file format converter",
+    "category": "General"
+  },
+  {
+    "command": "unrar",
+    "description": "Extract files from a rar archive",
+    "category": "General"
+  },
+  {
+    "command": "unset",
+    "description": "Remove variable or function names",
+    "category": "General"
+  },
+  {
+    "command": "unshar",
+    "description": "Unpack shell archive scripts",
+    "category": "General"
+  },
+  {
+    "command": "until",
+    "description": "Execute commands (until error)",
+    "category": "General"
+  },
+  {
+    "command": "uptime",
+    "description": "Show uptime",
+    "category": "General"
+  },
+  {
+    "command": "useradd",
+    "description": "Create new user account",
+    "category": "General"
+  },
+  {
+    "command": "userdel",
+    "description": "Delete a user account",
+    "category": "General"
+  },
+  {
+    "command": "usermod",
+    "description": "Modify user account",
+    "category": "General"
+  },
+  {
+    "command": "users",
+    "description": "List users currently logged in",
+    "category": "General"
+  },
+  {
+    "command": "uuencode",
+    "description": "Encode a binary file",
+    "category": "General"
+  },
+  {
+    "command": "uudecode",
+    "description": "Decode a file created by uuencode",
+    "category": "General"
+  },
+  {
+    "command": "v",
+    "description": "Verbosely list directory contents ('ls -l -b')",
+    "category": "General"
+  },
+  {
+    "command": "vdir",
+    "description": "Verbosely list directory contents ('ls -l -b')",
+    "category": "General"
+  },
+  {
+    "command": "vi",
+    "description": "Text Editor",
+    "category": "General"
+  },
+  {
+    "command": "vmstat",
+    "description": "Report virtual memory statistics",
+    "category": "General"
+  },
+  {
+    "command": "w",
+    "description": "Show who is logged on and what they are doing",
+    "category": "General"
+  },
+  {
+    "command": "wait",
+    "description": "Wait for a process to complete \u2022",
+    "category": "General"
+  },
+  {
+    "command": "watch",
+    "description": "Execute/display a program periodically",
+    "category": "General"
+  },
+  {
+    "command": "wc",
+    "description": "Print byte, word, and line counts",
+    "category": "General"
+  },
+  {
+    "command": "whereis",
+    "description": "Search the user\u2019s $path, man pages and source files for a program",
+    "category": "General"
+  },
+  {
+    "command": "which",
+    "description": "Search the user\u2019s $path for a program file",
+    "category": "General"
+  },
+  {
+    "command": "while",
+    "description": "Execute commands",
+    "category": "General"
+  },
+  {
+    "command": "who",
+    "description": "Print all usernames currently logged in",
+    "category": "General"
+  },
+  {
+    "command": "whoami",
+    "description": "Print the current user id and name ('id -un')",
+    "category": "General"
+  },
+  {
+    "command": "wget",
+    "description": "Retrieve web pages or files via HTTP, HTTPS or FTP",
+    "category": "General"
+  },
+  {
+    "command": "write",
+    "description": "Send a message to another user",
+    "category": "General"
+  },
+  {
+    "command": "xargs",
+    "description": "Execute utility, passing constructed argument list(s)",
+    "category": "General"
+  },
+  {
+    "command": "xdg-open",
+    "description": "Open a file or URL in the user\u2019s preferred application",
+    "category": "General"
+  },
+  {
+    "command": "xxd",
+    "description": "Make a hexdump or do the reverse",
+    "category": "General"
+  },
+  {
+    "command": "xz",
+    "description": "Compress or decompress .xz and .lzma files",
+    "category": "General"
+  },
+  {
+    "command": "yes",
+    "description": "Print a string until interrupted",
+    "category": "General"
+  },
+  {
+    "command": "zip",
+    "description": "Package and compress (archive) files",
+    "category": "General"
+  },
+  {
+    "command": "",
+    "description": "Run a command script in the current shell",
+    "category": "General"
+  },
+  {
+    "command": "!!",
+    "description": "Run the last command again",
+    "category": "General"
+  }
+]
